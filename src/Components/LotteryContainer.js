@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import logo from '../img/LOGO_negative.png';
-import machine from '../img/machine.png';
-import grip from '../img/grip.png';
+import Logo from './Logo';
+import Machine from './Machine';
+import Grip from './Grip';
 
 import '../LotteryContainer.css';
 
@@ -12,17 +12,17 @@ class LotteryContainer extends React.Component{
             <div id="LotteryContainer">
                 <div>
                     <h1 id="logo">
-                        <img id="logoIMG" src={logo} alt="logo"/>
+                        <Logo/>
                     </h1>
                 </div>
                 <div>
                     <div id="machine">
-                        <img id="machineIMG" src={machine} alt="machine"/>
-                        <img id="gripIMG" src={grip} alt="grip"/>
+                        <Machine/>
+                        <Grip/>
                     </div>
                 </div>
                 <div>
-                    <h1>Sodape</h1>
+                    <h6>Rodape</h6>
                 </div>
             </div>
         );

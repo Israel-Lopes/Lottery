@@ -5,7 +5,7 @@ import LotteryContainer from './Components/LotteryContainer.js';
 
 class App extends React.Component {
   render() {
-    return <LotteryContainer/>
+    return <LotteryContainer/>;
   }
 }
 
