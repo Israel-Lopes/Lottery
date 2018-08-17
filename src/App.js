@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import favicon from './img/favicon.png';
 import './App.css';
 import LotteryContainer from './Components/LotteryContainer.js';
 
