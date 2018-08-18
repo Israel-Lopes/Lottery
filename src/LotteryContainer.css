@@ -1,3 +1,25 @@
-#LotteryContainer{
+#lotteryContainer{
     background-color: #540051;
+   
+}
+
+#logo{
+  position: relative;
+  height: auto;
+  left: 100px;
+  display: inline;
+}
+
+#machine{
+    position: relative;
+    height: auto;
+    top: 100px;
+    left: 430px;
+    display: block;
+}
+
+#grip{
+    position: relative;
+    height: auto;
+    left: 435px;
 }
